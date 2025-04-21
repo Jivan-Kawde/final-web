@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UV-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <title>demo web</title>
+
+    </head>
+    <body>
+
+       <h1>PC GAMES</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>GAMES</th>
+            <th>LINKS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>RISE OF TOMB RAIDER</td>
+            <td><a href="https://gamesleech.com/rise-of-the-tomb-raider/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>SHADOW OF TOMB RAIDER</td>
+            <td><a href="https://gamesleech.com/shadow-of-the-tomb-raider/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>BALDUR'S GATE-3</td>
+            <td><a href="https://gamesleech.com/baldurs-gate-3/">DOWNLOAD</a></td>
+          </tr>
+
+          <tr>
+            <td>FAR CRY 5</td>
+            <td><a href="https://gamesleech.com/far-cry-5/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>FAR CRY 6</td>
+            <td><a href="https://gamesleech.com/far-cry-6/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>LAST OF US 2</td>
+            <td><a href="https://gamesleech.com/the-last-of-us-part-ii-remastered/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>INDIANA JONES</td>
+            <td><a href="https://gamesleech.com/indiana-jones/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>RESIDENT EVIL 3</td>
+            <td><a href="https://gamesleech.com/resident-evil-3/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>RESIDENT EVIL 4</td>
+            <td><a href="https://gamesleech.com/resident-evil-4-remake/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>RESIDENT EVIL 7</td>
+            <td><a href="https://gamesleech.com/resident-evil-7-biohazard/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>SPLIT FICTION</td>
+            <td><a href="https://gamesleech.com/split-fiction/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>OUTLAST-2</td>
+            <td><a href="https://gamesleech.com/outlast-2/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>STALKER-2</td>
+            <td><a href="https://gamesleech.com/stalker-2-heart-of-chornobyl/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>BLACK-MYTH WUKONG</td>
+            <td><a href="https://gamesleech.com/black-myth-wukong/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>MATAPHOR-REFANTAZIO</td>
+            <td><a href="https://gamesleech.com/metaphor-refantazio/">DOWNLOAD</a></td>
+          </tr>
+          <tr>
+            <td>CALL OF DUTY-BLACK OPS-2</td>
+            <td><a href="https://gamesleech.com/call-of-duty-black-ops-ii/">DOWNLOAD</a></td>
+          </tr>
+          <td>CALL OF DUTY-BLACK OPS-3</td>
+            <td><a href="https://gamesleech.com/call-of-duty-black-ops-iii/">DOWNLOAD</a></td>
+          </tr>
+          <td>CALL OF DUTY-BLACK OPS-COLD WAR</td>
+            <td><a href="https://gamesleech.com/call-of-duty-black-ops-cold-war/">DOWNLOAD</a></td>
+          </tr>
+          <td>CALL OF DUTY-BLACK OPS</td>
+            <td><a href="https://gamesleech.com/call-of-duty-black-ops/">DOWNLOAD</a></td>
+          </tr>
+          <td>CALL OF DUTY-MODERN WARFARE 2</td>
+            <td><a href="https://gamesleech.com/call-of-duty-modern-warfare-2-campaign-remastered/">DOWNLOAD</a></td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+      
+    </body>
+
+    <style>
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* Make the table responsive */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  th, td {
+    display: inline-block;
+    min-width: 150px; /* adjust the minimum width as needed */
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+}
+
+/* Alternatively, you can use a card layout for mobile devices */
+@media (max-width: 480px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  tr {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  th {
+    display: none;
+  }
+  
+  td {
+    padding: 10px;
+    border: none;
+  }
+  
+  td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+  }
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+
+
+    </style>
+    
+    
+
+ 
